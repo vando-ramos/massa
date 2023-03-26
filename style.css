@@ -9,6 +9,35 @@ body {
   color: #444;
 }
 
+header {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+}
+
+.logo img {
+  width: 200px;
+}
+
+.sign-in {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sign-in button {
+  border: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 180px;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
 section {
   padding: 3rem 0 4rem 0;
 }
@@ -34,6 +63,11 @@ h1.title {
   padding: 0 1rem;
 }
 
+.hero {
+  width: 60%;
+  margin: auto;
+}
+
 .intro p {
   margin: 1rem 0;
   font-size: 1.5rem;
@@ -42,6 +76,11 @@ h1.title {
 
 .intro .cta {
   margin: 2rem 0;
+}
+
+.cta {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .button {  
