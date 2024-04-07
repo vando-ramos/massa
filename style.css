@@ -27,6 +27,7 @@ header {
 
 .sign-in button {
   border: none;
+  cursor: pointer;
 }
 
 input[type="text"],
